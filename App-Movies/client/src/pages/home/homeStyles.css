@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000;
+    background-size: cover;
+    position: relative;
+}
+
+.grid-peliculas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

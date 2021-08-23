@@ -1,0 +1,102 @@
+.body{
+    background-color: #ffff;
+    color: rgb(0, 0, 0);
+}
+
+
+.container-formulario{
+    display: flex;
+    position: relative;
+    left: 30%;
+}
+
+.form-input-texto{
+    display: block;
+    width: 400px;
+    justify-content:center;
+}
+
+.form-input-texto input{
+    position: relative;
+    left: 20px;
+    width: 350px;
+	padding:10px 10px;
+	margin: 10px auto ;
+	display:inline-block;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid rgb(68, 65, 65);
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.form-input-file{
+    display: block;
+    width: 400px;
+    justify-content:center;
+    position: relative;
+    left: 120%;
+    bottom: 45%;
+    justify-content: center;
+}
+
+.form-input-file input{
+    display: block;
+    width: 400px;
+    justify-content:center;
+    position: relative;
+    padding-top: 10px;
+    bottom: 50%;
+}
+
+.btnRegistrar{
+    background-color:rgb(17, 138, 102);
+    border: none;
+    box-shadow: none;
+    color: #ffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btnRegistrar:hover{
+    cursor: pointer;
+    background-color:rgb(11, 80, 59);
+    color: #ffff;
+}
+
+.btnEditar{
+    background-color:rgb(39, 238, 252);
+    border: none;
+    box-shadow: none;
+    color: #ffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btnEditar{
+    cursor: pointer;
+    background-color:rgb(6, 127, 136);
+    color: #ffff;
+}
+
+.btnEliminar{
+    background-color:rgb(116, 7, 7);
+    border: none;
+    box-shadow: none;
+    color: #ffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btnEliminar:hover{
+    cursor: pointer;
+    background-color:rgb(204, 19, 19);
+    color: #ffff;
+}
